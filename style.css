@@ -3,7 +3,7 @@
 :root {
     --bg: #f8fafc;
     --card: #ffffff;
-    --primary: #7c3aed;   /* Purple */
+    --primary: #38bdf8;   /* Light Blue */
     --secondary: #e2e8f0;
     --text: #1e293b;
     --muted: #475569;
@@ -68,14 +68,14 @@ main {
     padding: 30px;
 }
 
-/* HERO */
+/* HERO (LIGHT BLUE HEADER) */
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #7c3aed, #a78bfa);
+    background: linear-gradient(135deg, #38bdf8, #7dd3fc);
     color: white;
     border-radius: 20px;
-    box-shadow: 0 15px 30px rgba(124, 58, 237, 0.4);
+    box-shadow: 0 15px 30px rgba(56, 189, 248, 0.4);
 }
 
 .hero h1 {
@@ -91,14 +91,14 @@ main {
     position: absolute;
     width: 60%;
     height: 4px;
-    background: #c4b5fd;
+    background: #bae6fd;
     left: 20%;
     bottom: -10px;
     border-radius: 2px;
 }
 
 .hero .name {
-    color: #fff;
+    color: #ffffff;
     font-weight: 700;
     font-size: 3.5rem;
     letter-spacing: 2px;
@@ -108,23 +108,23 @@ main {
 .hero p {
     font-style: italic;
     font-weight: 300;
-    color: #dbeafe;
+    color: #e0f2fe;
     margin-top: 10px;
 }
 
-/* Optional emoji pulse animation */
+/* Optional pulse animation */
 @keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
 }
 
 .hero .name + span {
-  display: inline-block;
-  animation: pulse 2s infinite;
+    display: inline-block;
+    animation: pulse 2s infinite;
 }
 
 /* SECTION */
